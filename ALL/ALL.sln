@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWord", "HelloWord\HelloWord.vcxproj", "{6C71818F-6B12-4751-BF7B-D14E3220D623}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Add", "Add\Add.vcxproj", "{0A154266-0A70-4AD1-A259-003A4B5AD83C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{6C71818F-6B12-4751-BF7B-D14E3220D623}.Debug|Win32.Build.0 = Debug|Win32
 		{6C71818F-6B12-4751-BF7B-D14E3220D623}.Release|Win32.ActiveCfg = Release|Win32
 		{6C71818F-6B12-4751-BF7B-D14E3220D623}.Release|Win32.Build.0 = Release|Win32
+		{0A154266-0A70-4AD1-A259-003A4B5AD83C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A154266-0A70-4AD1-A259-003A4B5AD83C}.Debug|Win32.Build.0 = Debug|Win32
+		{0A154266-0A70-4AD1-A259-003A4B5AD83C}.Release|Win32.ActiveCfg = Release|Win32
+		{0A154266-0A70-4AD1-A259-003A4B5AD83C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
