@@ -3,16 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "n1", "n1\n1.vcproj", "{A173FB48-B3C9-4571-873D-69C1C90DDFCC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "console", "console\console.vcproj", "{C1A30C15-6808-4200-A415-B91C1AFB20D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A173FB48-B3C9-4571-873D-69C1C90DDFCC}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{A173FB48-B3C9-4571-873D-69C1C90DDFCC}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{A173FB48-B3C9-4571-873D-69C1C90DDFCC}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{A173FB48-B3C9-4571-873D-69C1C90DDFCC}.Debug|Win32.ActiveCfg = Debug|Win32
 		{A173FB48-B3C9-4571-873D-69C1C90DDFCC}.Debug|Win32.Build.0 = Debug|Win32
+		{A173FB48-B3C9-4571-873D-69C1C90DDFCC}.Release|Any CPU.ActiveCfg = Release|Win32
+		{A173FB48-B3C9-4571-873D-69C1C90DDFCC}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{A173FB48-B3C9-4571-873D-69C1C90DDFCC}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{A173FB48-B3C9-4571-873D-69C1C90DDFCC}.Release|Win32.ActiveCfg = Release|Win32
 		{A173FB48-B3C9-4571-873D-69C1C90DDFCC}.Release|Win32.Build.0 = Release|Win32
+		{C1A30C15-6808-4200-A415-B91C1AFB20D4}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{C1A30C15-6808-4200-A415-B91C1AFB20D4}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{C1A30C15-6808-4200-A415-B91C1AFB20D4}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{C1A30C15-6808-4200-A415-B91C1AFB20D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C1A30C15-6808-4200-A415-B91C1AFB20D4}.Debug|Win32.Build.0 = Debug|Win32
+		{C1A30C15-6808-4200-A415-B91C1AFB20D4}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C1A30C15-6808-4200-A415-B91C1AFB20D4}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{C1A30C15-6808-4200-A415-B91C1AFB20D4}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{C1A30C15-6808-4200-A415-B91C1AFB20D4}.Release|Win32.ActiveCfg = Release|Win32
+		{C1A30C15-6808-4200-A415-B91C1AFB20D4}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
