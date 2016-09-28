@@ -32,6 +32,9 @@ public:
 	float Func_GetSum(float a,float b){
 		return a+b;
 	}
+	int Func_GetSum(int &a,int &b){
+		return (int)*a+(int)*b;//取值相加
+	}
 	int Func_GetSub(int a,int b){
 		return a-b;
 	}
