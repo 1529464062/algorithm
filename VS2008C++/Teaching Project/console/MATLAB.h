@@ -19,11 +19,30 @@ public:
 	int getB(){
 		return _b;
 	}
+	/*
+	*功能：返回两个运算数的加法实例
+	*实例：返回 a+b；
+	*/
+	int Func_GetSum(){
+		return _a+_b;
+	}
 	int Func_GetSum(int a,int b){
 		return a+b;	
 	}
+	float Func_GetSum(float a,float b){
+		return a+b;
+	}
 	int Func_GetSub(int a,int b){
 		return a-b;
+	}
+	float Func_GetSub(float a,float b){
+		return a-b;
+	}
+	int Func_GetRide(int a,int b){
+		return a*b;
+	}
+	float Func_GetRide(float a,float b){
+		return a*b;
 	}
 public:
 	~MATLAB(void);

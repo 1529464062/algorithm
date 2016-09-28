@@ -14,9 +14,15 @@ int main(){
 	int d=20;
 	MATLAB matlab;
 	int sum = matlab.Func_GetSum(c,d);
-	cout<<sum<<endl;
+	float _sum = matlab.Func_GetSum((float)2.22,(float)3.33);
 	matlab.setA(123);
-	cout<<"a="+matlab.getA()<<endl;
+	matlab.setB(234);
+	int sum2=matlab.Func_GetSum();
+	cout<<_sum<<endl;
+	cout<<sum<<endl;
+	cout<<sum2<<endl;
+	matlab.setA(123);
+	cout<<"a="<<matlab.getA()<<endl;
 	cin>>a;
 	return 0;
 }
