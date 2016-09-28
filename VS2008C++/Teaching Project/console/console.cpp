@@ -28,5 +28,6 @@ int main(){
 	int _b=34;//定义_b赋值
 	int b=&_b;//取_b地址
 	cout<<"a+b="<<matlab.Func_GetSum(a,b);
+	//http://www.cnblogs.com/alephsoul-alephsoul/archive/2012/10/10/2719192.html 参考文件
 	return 0;
 }
